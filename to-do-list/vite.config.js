@@ -3,6 +3,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/to-do-list/', // Must match your GitHub repo name exactly
+  base: '/to-do-list/', // 👈 This must match the repo name exactly!
   plugins: [react()],
 });
